@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px;
+    gap: 495px;
+    align-self: center;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+nav li {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+    padding-top: 3px;
+}
+
+nav svg {
+    width: 24px;
+    height: 24px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 35px;
+}
+
+.banner {
+    display: flex;
+    padding: 0px 120px;
+    align-items: center;
+    gap: 250px;
+}
+.banner h1{
+    color: #3A3A3A;
+font-size: 3.25rem;
+font-weight: 700;
+width: 582px;
+height: 133px;
+}
+.banner p{
+    width: 505px;
+height: 60.9px;
+flex-shrink: 0;
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.btn{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.25rem;
+
+font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+border: none;
+}
+.banner img {
+    padding-right: 70px;
+    width: 410px;
+    height: 400px;
+    background: url(images/Circle\ design.svg), rgb(255, 254, 254) -256.697px -123px / 220.317% 154.831% no-repeat;
+}
+.logo{
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
