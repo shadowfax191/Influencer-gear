@@ -8,7 +8,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 80px 120px;
+    margin: 80px 120px;
     gap: 495px;
     align-self: center;
 }
@@ -54,7 +54,7 @@ nav div {
     color: #3A3A3A;
     font-size: 3.25rem;
     font-weight: 700;
-    width: 582px;
+    width: 502px;
     height: 133px;
 }
 
@@ -78,15 +78,14 @@ nav div {
     font-weight: 700;
 
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 24px;
     align-items: flex-start;
     gap: 8px;
     border-radius: 41px;
     background: #E02C6D;
     border: none;
+    
 }
 
 .banner img {
@@ -102,6 +101,7 @@ nav div {
     display: flex;
     justify-content: space-around;
     gap: 60px;
+    align-items: center;
 }
 
 
@@ -190,7 +190,7 @@ text-align: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 200px;
 }
 .last h3{
     color: #0A0826;
@@ -200,18 +200,13 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px; /* 157.895% */
 }
-.last img{
-    width: 404px;
-height: 270px;
-flex-shrink: 0;
-}
+
 .last p{
-    width: 501px;
-height: 88px;
+   
 flex-shrink: 0;
 color: #6C6C6C;
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 700;
 line-height: 28px; /* 175% */
@@ -225,6 +220,7 @@ footer{
     text-align: center;
     color: white;
     padding: 50px;
+    
 }
 footer h3{
     color: #FFF;
@@ -242,7 +238,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 171.429% */
-pa
 }
  
 footer svg{
@@ -251,7 +246,59 @@ footer svg{
 
 
 @media screen and (max-width: 576px){
+   
     nav{
+        margin: 20px;
         flex-direction: column;
+        text-align: center;
+        gap: 30px;
     }
+    .banner {
+        flex-direction: column-reverse;
+        padding: 0px 20px;
+        text-align: center;
+        gap: 30px;
+    }
+    .btn{
+        position: relative;
+        left: 150px;
+    }
+   .logo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-content: center;
+    gap: 30px;
+    
+   }
+   .item{
+    position: relative;
+    left: 50px;
+
+   }
+   
+   footer{
+    text-align: center;
+   }
+.gears{
+    margin: 20px;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.gear1{
+    width: auto;
+}
+.gear1 img{
+    width: 100%;
+}
+.last{
+    flex-direction: column-reverse;
+    margin: 20px;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.last button{
+    left: 10rem;
+}
 }
